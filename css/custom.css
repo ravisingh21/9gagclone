@@ -1,0 +1,45 @@
+
+  .thumbnail div {
+    margin: initial;
+    padding: inherit;
+}
+
+.thumbnail {
+    margin-left: 23px;
+    padding: 2px;
+}
+
+.row.jumbotron {
+    background-color: transparent;
+    width: 100%;
+  }
+
+
+
+.jumbotron{
+  background-color: transparent;
+}
+
+input {
+    margin-top: 7px;
+}
+.btn-block {
+    display: block;
+    width: 100px;
+  }
+
+.dummy{
+  position: fixed;
+  z-index: 100;
+  
+}
+.col-lg-12 img {
+    padding: 10px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.container {
+    margin: -8px;
+    padding: 50px;
+}
