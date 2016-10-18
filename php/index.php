@@ -1,17 +1,22 @@
 <?php
+include('includes/config.php');
 include('includes/header.php');
 include('includes/nav.php');
+
+die;
 ?>
 <div class="container">
 
   <!-- content-box -->
   <div class="col-lg-8 content-container">
-        <div class="row">
+        <?php foreach ($imageData as $data) {  ?>
+         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 content">
-              <h4>When choosing a proper body text font, choose the ones that will suit your publication.</h4>
-              <img src="images/pexels-photo-26549.jpg">
+              <h4><?php echo $data['title']; ?></h4>
+              <img src="<?php echo $data['img']; ?>">
             </div>
           </div>
+          <?php }?>
    </div>
 
 
